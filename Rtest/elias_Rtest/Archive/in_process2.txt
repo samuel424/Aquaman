@@ -1,0 +1,27 @@
+elfa
+ctrl
+Run Well Sample Gene Population Ct
+run_1 A1 sample_1 elfa test 21
+run_1 A2 sample_1 sod1 test 23
+run_1 A3 sample_2 elfa test 20.5
+run_1 A4 sample_2 sod1 test 22
+run_1 A5 sample_3 elfa test 20.6
+run_1 A6 sample_3 sod1 test 22.5
+run_1 A7 sample_4 elfa ctrl 20
+run_1 A8 sample_4 sod1 ctrl 26
+run_1 A9 sample_5 elfa ctrl 20.5
+run_1 B1 sample_5 sod1 ctrl 26.2
+run_1 B2 sample_6 elfa ctrl 20.3
+run_1 B3 sample_6 sod1 ctrl 26.4
+run_2 A1 sample_7 elfa test2 21
+run_2 A2 sample_7 hsp70 test2 23
+run_2 A3 sample_8 elfa test2 20.5
+run_2 A4 sample_8 hsp70 test2 22
+run_2 A5 sample_9 elfa test2 20.6
+run_2 A6 sample_9 hsp70 test2 22.5
+run_2 A7 sample_10 elfa ctrl 20
+run_2 A8 sample_10 hsp70 ctrl 26
+run_2 A9 sample_11 elfa ctrl 20.5
+run_2 B1 sample_11 hsp70 ctrl 26.2
+run_2 B2 sample_12 elfa ctrl 20.3
+run_2 B3 sample_12 hsp70 ctrl 26.4

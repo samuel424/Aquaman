@@ -1,0 +1,9 @@
+elfa
+Run ID: 65
+Well	Fluor	Target	Content	Sample	
+A01	FAM	igf1	Pos Ctrl	NULL	
+B01	FAM	igf1	Neg Ctrl	NULL	
+C01	FAM	igf1	Unkn	2	
+D01	FAM	rpl32	Pos Ctrl	NULL	
+E01	FAM	rpl32	Neg Ctrl	NULL	
+F01	FAM	rpl32	Unkn	2	

@@ -1,0 +1,13 @@
+run Well Sample Gene Population Ct
+run_1 A1 sample_1 elfa test 21
+run_1 A2 sample_1 sod1 test 23
+run_1 A3 sample_2 elfa test 20.5
+run_1 A4 sample_2 sod1 test 22
+run_1 A5 sample_3 elfa test 20.6
+run_1 A6 sample_3 sod1 test 22.5
+run_1 A7 sample_4 elfa ctrl 20
+run_1 A8 sample_4 sod1 ctrl 26
+run_1 A9 sample_5 elfa ctrl 20.5
+run_1 B1 sample_5 sod1 ctrl 26.2
+run_1 B2 sample_6 elfa ctrl 20.3
+run_1 B3 sample_6 sod1 ctrl 26.4
