@@ -1,0 +1,358 @@
+:root {
+    /*Colors*/
+    --phc: #c06442; /*Pageheader text*/
+    --phbg: #3b8262; /*Pageheader background*/
+    
+    --dc: #020201; /*Dropdown button text*/
+    --dbgc: #a3eba3; /*Dropdown button background*/
+    --dbgh: #B25D4D; 
+    --dbgh2:#4A4453; /*Dropdown button hover*/
+
+    --dlc: #000000;/*Dropdown list text*/
+    --dlbg: #ffffff;/*Dropdown list background*/
+    --dlh: #B0A8BA; /*Dropdown list hover*/
+
+    --ib: #a3eba3; /*Infobox border*/
+    --ibg: #c5ebe4; /*Infobox background*/
+    --it: #041b17; /*Infobox text*/
+
+    --fc: #000000; /*Footer text*/
+    --fbg: #3b8262; /*Footer background*/
+
+
+  }
+
+  
+
+  /**Colors
+  #B89CE5 purple
+  #4A4453 dark
+  #B0A8BA grey
+
+  #ED907E light brownish
+  #B25D4D brownish
+
+  #008190 greenblue
+  #00C2A7 greenblue light
+
+  #51FBDE Cyan
+
+  #7399E7 light blue
+  #0094DA blue
+
+  #FEFEDF Whiteyellow
+**/
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+@import url('https://fonts.googleapis.com/css?family=Vampiro One');
+
+
+body {
+    margin:0;
+    padding:0;
+    height: 100%;
+  }
+  
+  #container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  /*Neon*/
+  c {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-decoration: none;
+    color: #fff;
+    font-family: Vampiro One;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+
+  }
+ 
+
+
+
+  
+  lab {
+    padding-top: 0.8rem;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 1;
+     text-decoration: none;
+    color: rgb(0, 0, 0);
+    filter: drop-shadow(0 0 0.75rem #ffffff);
+    font-family: Trirong;
+  }
+  
+  #mask {
+    filter: drop-shadow(0 0 0.75rem #ffffff);
+    
+  }
+
+  
+  /*glow*/
+  
+  
+  @keyframes neon1 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #a3eba3,
+        0 0 70px #a3eba3, 0 0 80px #a3eba3, 0 0 100px #a3eba3, 0 0 150px #a3eba3;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #a3eba3,
+        0 0 35px #a3eba3, 0 0 40px #a3eba3, 0 0 50px #a3eba3, 0 0 75px #a3eba3;
+    }
+  }
+  
+  /*Make stuff responsive*/
+  
+  @media (max-width: 650px) {
+    p {
+      font-size: 3.5em;
+    }
+  }
+  
+
+
+/**PageHeader**/
+.PageHeader {
+    width: 100%;
+    background:var(--phbg);
+    color: var(--phc);
+}
+
+.PageHeader img {
+    width: 100px;
+    float: left;
+}
+
+
+header {
+    font-size: 70px;
+    margin-bottom: 0;
+    padding-left: 1rem;
+    margin-top: 0;
+    text-decoration: none;
+    color: #fff;
+    font-family: Vampiro One;
+    filter: drop-shadow(0 0 0.75rem #ffffff);
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #a3eba3,
+    0 0 35px #a3eba3, 0 0 40px #a3eba3, 0 0 50px #a3eba3, 0 0 75px #a3eba3;
+    
+    
+}
+
+
+/**NAV**/
+nav {
+    align-items: baseline;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+    
+nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+nav ul li{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float:left;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/**Dropdown**/
+    /*Button */
+    .drop {
+        background-color: var(--dbgc);
+        color: var(--dc);
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 12px;
+        border:1px solid #020201;
+        box-shadow: 2px 4px 16px 2px #000000;
+    }
+
+    .drop:hover, .drop:focus {
+        background-color: var(--dbh);
+    }
+
+    /*Container*/
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .li {
+        color: black;
+    }
+    /*List*/
+    .droplist {
+        display: none;
+        position: absolute;
+        background-color: var(--dlbg);
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px #000000;
+        z-index: 1;
+    }
+
+    .droplist a {
+        color: var(--dlc);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+
+    /**/
+    .dropdown a:hover {background-color: var(--dlh);}
+
+    .show {display: block;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .drop {background-color: var(--dbgh2);}
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }  
+
+/**Body**/
+
+.separator-type, .title-type, .intro-type, .content-type .intro-type p {
+  position: relative;
+}
+.intro-type .container {
+  padding: 3rem 0rem 3rem 0rem !important;
+}
+.company-heading h1 {
+
+  line-height: 80px;
+  color: #fff;
+  font-weight: 700 !important;
+  text-align: center;
+}
+
+.seo-header, .product-header, 
+.intro-type .container h1.white, 
+.company-heading h1 {
+  font-weight: 100 !important;
+  text-transform: capitalize;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.parallax {
+  background-attachment: inherit !important;
+  background-repeat: repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  z-index: -10;
+}
+.ct-btn-scroll {
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 500px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+img, 
+figure {
+  max-width: 100%;
+}
+
+.body {
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 5rem;
+    overflow: hidden;
+    clear: both;
+}
+
+.instructions {
+    width: 50%;
+    border: 2px solid var(--ib); 
+    margin: 10px 0px; 
+    padding: 5px 10px;
+    background-color: var(--ibg);
+    border-radius: 5px;
+    color: var(--it);
+    font-size: 1rem;
+}
+
+table {
+    border-width: 1px;
+    padding-bottom: 1em;
+}
+table td, table th{
+    padding: 2px 5px 2px 5px;
+    border: 1px solid black;
+}
+
+.headertext {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+.rowpad {
+    margin-top: 3rem;
+
+  }
+
+.samcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .contact{
+    padding-right:15rem;
+    padding-left:15rem;
+  }
+
+/**Footer**/
+footer {
+    position: relative;
+    clear: both;
+    height: 10rem;
+    margin-top: 2rem;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: var(--fbg);
+    color: var(--fl);
+}
+
+/**Forms**/
+input.date{
+    width: 5%;
+}
+input.time{
+    width: 2.5%;
+}
