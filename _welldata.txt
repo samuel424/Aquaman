@@ -1,0 +1,50 @@
+Run ID: 78 Genes: g_h_rpl32 g_sod1 
+Well	Fluor	Target	Content	Sample	
+A01	FAM	rpl32	Pos Ctrl	NULL	
+B01	FAM	rpl32	Neg Ctrl	NULL	
+C01	FAM	rpl32	Unkn	1	
+D01	FAM	rpl32	Unkn	2	
+E01	FAM	rpl32	Unkn	15	
+F01	FAM	rpl32	Unkn	16	
+G01	FAM	rpl32	Unkn	17	
+H01	FAM	rpl32	Unkn	18	
+A02	FAM	rpl32	Unkn	19	
+B02	FAM	rpl32	Unkn	20	
+C02	FAM	rpl32	Unkn	21	
+D02	FAM	rpl32	Unkn	22	
+E02	FAM	rpl32	Unkn	23	
+F02	FAM	rpl32	Unkn	1	
+G02	FAM	rpl32	Unkn	2	
+H02	FAM	rpl32	Unkn	15	
+A03	FAM	rpl32	Unkn	16	
+B03	FAM	rpl32	Unkn	17	
+C03	FAM	rpl32	Unkn	18	
+D03	FAM	rpl32	Unkn	19	
+E03	FAM	rpl32	Unkn	20	
+F03	FAM	rpl32	Unkn	21	
+G03	FAM	rpl32	Unkn	22	
+H03	FAM	rpl32	Unkn	23	
+A04	FAM	sod1	Pos Ctrl	NULL	
+B04	FAM	sod1	Neg Ctrl	NULL	
+C04	FAM	sod1	Unkn	1	
+D04	FAM	sod1	Unkn	2	
+E04	FAM	sod1	Unkn	15	
+F04	FAM	sod1	Unkn	16	
+G04	FAM	sod1	Unkn	17	
+H04	FAM	sod1	Unkn	18	
+A05	FAM	sod1	Unkn	19	
+B05	FAM	sod1	Unkn	20	
+C05	FAM	sod1	Unkn	21	
+D05	FAM	sod1	Unkn	22	
+E05	FAM	sod1	Unkn	23	
+F05	FAM	sod1	Unkn	1	
+G05	FAM	sod1	Unkn	2	
+H05	FAM	sod1	Unkn	15	
+A06	FAM	sod1	Unkn	16	
+B06	FAM	sod1	Unkn	17	
+C06	FAM	sod1	Unkn	18	
+D06	FAM	sod1	Unkn	19	
+E06	FAM	sod1	Unkn	20	
+F06	FAM	sod1	Unkn	21	
+G06	FAM	sod1	Unkn	22	
+H06	FAM	sod1	Unkn	23	
